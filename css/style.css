@@ -110,3 +110,28 @@ body{
     width: 300px;
     padding-top: 10px;
 }
+/* footer part start */
+.footer-top{
+    padding-bottom: 63px;
+}
+.footer-socal-madiea ul{
+    margin-top: 20px;
+    
+}
+   
+.footer-socal-madiea ul li{
+    list-style: none;
+    padding-left: 14px;
+}
+.footer-box{
+    width: 483.87px;
+    height: 213px;
+    margin-top: 158px;
+}
+p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+margin-top: 20px;
+}
+
