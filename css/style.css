@@ -13,9 +13,16 @@ body{
 }
 
 .flex{
-    display: flex;
-    flex-direction:row-reverse;
-   
+    display: flex;  
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
 }
 
 .grid{
@@ -27,15 +34,50 @@ body{
     width: 1050px;
     padding: 0 15px;
     margin: 0 auto;
-    margin-top: 70px;
+    
 }
 
 
-/* opsonal */
+/* header style strat */
 
-.top-bar h1{
-    background-color: blue;
+.Top-banner{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    margin-bottom: 30px;
 }
+
+.banner .banner-Left h1{
+    margin-right: 102px;
+    width: 485px;
+    height: 230px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF
+}
+.banner-button button{
+    width: 168px;
+    height: 44px; 
+    margin-top: 27px; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    background-color: #E02C6D;
+}
+
+   
+.banner-thiemlain img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+}
+.banner-button button:hover{
+    background-color: cornsilk;
+}
+
+
+
 /* section-01 Top-player strat */
 
 .players{
