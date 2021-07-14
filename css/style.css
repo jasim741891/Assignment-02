@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-font-smootthing: antialiased;
 }
 
 
@@ -36,47 +35,76 @@ body{
     margin: 0 auto;
     
 }
+/* media queary */
+/* mbile device */
+@media only screen and (max-width:480px) {
+    
+    .container{
+        width: 100%;
+    }
+    
+    .headers, .top-1, .top-2, .top-3 , .top-4 , .fields{
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .headar, .top-1,.top-2, .top-3, .top-4 , .box{
+        flex-direction: column;
+    }
 
+}
+    
 
 /* header style strat */
 
-.Top-banner{
+.header-color{
     background-color: #2D25A0;
     width: 1440px;
     height: 677px;
-    margin-bottom: 30px;
+    margin-bottom: 21px;
+}
+.header h1{
+width: 485px;
+height: 230px;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+color: #FFFFFF;
+margin-right: 102px;
+margin-top: 207px;
+
 }
 
-.banner .banner-Left h1{
-    margin-right: 102px;
-    width: 485px;
-    height: 230px;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 80px;
-    color: #FFFFFF
-}
-.banner-button button{
-    width: 168px;
-    height: 44px; 
-    margin-top: 27px; 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px; 
-    background-color: #E02C6D;
+.header-button button{
+   background-color: #E02C6D;
+   width: 168px;
+   height: 44px;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   margin-top: 27px;
+   font-size: 16px;
+   font-weight: 400;
 }
 
-   
-.banner-thiemlain img{
-    width: 556.01px;
+.header-button button:hover{
+    background-color: whitesmoke;
+    color:black;
+}
+
+
+.headers-image img{
+    width:  556.01px;
     height: 438px;
     margin-top: 153px;
-}
-.banner-button button:hover{
-    background-color: cornsilk;
+    
 }
 
 
+
+.headers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
 /* section-01 Top-player strat */
 
@@ -110,6 +138,21 @@ body{
     width: 300px;
     padding-top: 10px;
 }
+
+
+/* section-02 start */
+.fields{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+    
+}
+.imgbox img{
+    width: 505px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 37px;
+}
+
 /* footer part start */
 .footer-top{
     padding-bottom: 63px;
@@ -133,5 +176,14 @@ p{
 font-size: 18px;
 line-height: 24px;
 margin-top: 20px;
+text-align: center;
 }
+.footer-hesd{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.footer-hesd{
+    margin-top: 30px;
+}
+
 
